@@ -17,3 +17,21 @@
 
 // Plugins
 @import "plugins/fontawesome";
+
+// Overwrites
+.navbar-logo {
+    line-height: inherit !important;
+}
+.nav-link {
+    display: inline-flex;
+
+    span {
+        margin-left: 10px;
+    }
+}
+.opacity-40 {
+    opacity: .40;
+}
+.viewport {
+    background-color: #312e3d;
+}
