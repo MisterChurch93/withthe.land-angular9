@@ -30,7 +30,11 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "src/assets/js/bootstrap.js",
+              "src/assets/js/bootstrap.bundle.js"
+            ]
           },
           "configurations": {
             "production": {
