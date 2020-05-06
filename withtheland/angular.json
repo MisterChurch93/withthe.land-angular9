@@ -33,7 +33,8 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
               "src/assets/js/bootstrap.js",
-              "src/assets/js/bootstrap.bundle.js"
+              "src/assets/js/bootstrap.bundle.js",
+              "src/assets/js/theme.js"
             ]
           },
           "configurations": {
