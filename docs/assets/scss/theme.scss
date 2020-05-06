@@ -21,7 +21,9 @@
 // Overwrites
 .navbar {
     .navbar-logo {
-        line-height: 1.75rem !important;
+        line-height: 2rem !important;
+        font-weight: 600;
+        letter-spacing: 1px;
     }
     .nav-link {
         display: inline-flex;
