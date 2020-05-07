@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CompanyModule } from './pages/company/company.module';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
+import { MissionComponent } from './pages/mission/mission.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    MissionComponent
   ],
   imports: [
     BrowserModule,
