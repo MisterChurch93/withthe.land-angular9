@@ -1,4 +1,4 @@
-<!-- header -->
+<!-- Header Begin -->
 <header class="header-sticky header-dark">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -23,25 +23,22 @@
               Welcome
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:;" role="button" routerLink="/mission" routerLinkActive="active">
+              <i class="fa fa-fw fa-globe-americas mr-1"></i>
+              Mission
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
   </div>
 </header>
-<!-- header -->
+<!-- Header End -->
 
-<div class="viewport">
-  <div class="image opacity-40 image-overlay jarallax" style="background-image:url('https://source.unsplash.com/1920x1080/?canada forest,canada trees,canada mountains,canada nature')"></div>
-  <div class="container">
-    <div class="row justify-content-center align-items-center vh-100">
-      <div class="col-lg-6 col-xl-4 text-white text-center">
-        <h1 class="display-4">With The Land</h1>
-        <p>The "With The Land" website is still in development. You can keep update with progress on our <a href="https://github.com/WithTheLand/withthe.land" class="link"><i class="fab fa-fw fa-github"></i> GitHub</a>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+<router-outlet></router-outlet>
 
+<!-- Footer Begin -->
 <footer class="bg-dark text-white">
   <div class="container py-5">
     <div class="row justify-content-between align-items-center">
@@ -72,5 +69,4 @@
     </div>
   </div>
 </footer>
-
-<router-outlet></router-outlet>
+<!-- Footer End -->
