@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
 import Headroom from "headroom.js";
-import { jarallax } from 'jarallax';
 
 @Component({
   selector: 'app-root',
@@ -15,9 +13,5 @@ export class AppComponent implements OnInit {
     const header = document.querySelector("header");
     const headroom = new Headroom(header);
     headroom.init();
-
-    jarallax(document.querySelectorAll('.jarallax'), {
-      speed: 0.6
-    });
   }
 }
