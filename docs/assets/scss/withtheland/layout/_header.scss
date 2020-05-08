@@ -14,7 +14,11 @@ header {
 		&[class*="-dark"] {
 			border-color: rgba($black, .2);
 			box-shadow: 0 0 20px rgba($black, .1);;
-			backdrop-filter: blur(5px);
+
+			// headroom enabled only
+			&.headroom--top {
+				backdrop-filter: blur(5px);
+			}
 
 			.navbar-logo-light {
 				display: block!important;
@@ -46,7 +50,8 @@ header {
 // header on desktop
 @include media-breakpoint-up(lg) {
 	.header-sticky {
-		@include transition(.4s);
+		transition: all 0.4s, backdrop-filter 0s !important;
+		//@include transition(.4s);
 		@include translate(0,0);
 		position: fixed;
 		top: 0;
