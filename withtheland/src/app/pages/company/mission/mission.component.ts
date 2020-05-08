@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { jarallax } from 'jarallax';
 
 @Component({
   selector: 'app-mission',
@@ -10,6 +11,9 @@ export class MissionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    jarallax(document.querySelectorAll('.jarallax'), {
+      speed: 0.6
+    });
   }
 
 }
