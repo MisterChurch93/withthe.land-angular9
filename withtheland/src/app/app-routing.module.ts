@@ -4,6 +4,14 @@ import { WelcomeComponent } from './pages/welcome/welcome.component';
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: 'welcome',
+    pathMatch: 'full',
+    data: {
+      title: 'With The Land'
+    }
+  },
+  {
     path: 'welcome',
     component: WelcomeComponent,
     data: {
