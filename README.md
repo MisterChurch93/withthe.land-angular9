@@ -8,7 +8,7 @@ The website is still being developed, but feel free to check out what [we've got
 
 ## Contributors
 
-With The Wild Team;
+With The Land Team;
 
 [<img src="https://github.com/tvOdyssey.png?size=72" alt="tvOdyssey" width="72">](https://github.com/tvOdyssey)
 [<img src="https://github.com/withthe-land.png?size=72" alt="withthe-land" width="72">](https://github.com/withthe-land)
