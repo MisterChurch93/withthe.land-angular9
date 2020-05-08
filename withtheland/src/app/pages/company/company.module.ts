@@ -3,11 +3,11 @@ import { CommonModule } from '@angular/common';
 
 import { CompanyRoutingModule } from './company-routing.module';
 import { ContactComponent } from './contact/contact.component';
-import { AboutComponent } from './about/about.component';
+import { MissionComponent } from './mission/mission.component';
 import { LegalComponent } from './legal/legal.component';
 
 @NgModule({
-  declarations: [ContactComponent, AboutComponent, LegalComponent],
+  declarations: [ContactComponent, MissionComponent, LegalComponent],
   imports: [
     CommonModule,
     CompanyRoutingModule

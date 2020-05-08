@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { ContactComponent } from './contact/contact.component';
-import { AboutComponent } from './about/about.component';
+import { MissionComponent } from './mission/mission.component';
 import { LegalComponent } from './legal/legal.component';
 
 const routes: Routes = [
@@ -20,10 +20,10 @@ const routes: Routes = [
         }
       },
       {
-        path: 'about',
-        component: AboutComponent,
+        path: 'mission',
+        component: MissionComponent,
         data: {
-          title: 'About'
+          title: 'Mission'
         }
       },
       {
